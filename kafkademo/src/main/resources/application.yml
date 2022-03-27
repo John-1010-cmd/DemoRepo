@@ -1,0 +1,11 @@
+spring:
+  kafka:
+    bootstrap-servers: 192.168.10.113:9092
+#    zookeeper: localhost:9092
+    producer:
+      value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
+    listener:
+      type: batch
+    consumer:
+      max-poll-records: 30
+      group-id: felix-group

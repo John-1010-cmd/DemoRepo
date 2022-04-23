@@ -15,4 +15,12 @@ public class UserServiceImpl2 implements UserService {
         UserAddress userAddress2 = new UserAddress(2,"xx市xx区xx大厦B座3层","1","李老师","010-1566-8465","Y");
         return Arrays.asList(userAddress1,userAddress2);
     }
+
+    public static void main(String[] args) {
+        UserService userService = new UserServiceImpl2();
+        List<UserAddress> addresses = userService.getUserAddressList("1");
+        for(UserAddress userAddress:addresses) {
+            System.out.println(userAddress.getUserAddress());
+        }
+    }
 }

@@ -14,7 +14,7 @@ public class AppController {
 
     @GetMapping(path = "/send/{what}")
     public void sendFoo(@PathVariable String what) {
-        this.template.send("kafkademo", " I am " + what);
+        this.template.send("kafkademo", what);
     }
 
     @GetMapping("/kafka/callbackOne/{message}")

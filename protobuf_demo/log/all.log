@@ -1,0 +1,54 @@
+02-24 11:53:42.382 [main] INFO  com.sq.nettydemo.HelloServer
+client connected
+
+02-24 11:53:42.429 [main] INFO  com.sq.nettydemo.HelloServer
+server receive message:content from client
+
+02-24 15:54:03.198 [main] INFO  com.sq.nettydemo.HelloServer
+client connected
+
+02-24 15:54:03.244 [main] INFO  com.sq.nettydemo.HelloServer
+server receive message:content from client
+
+02-24 15:57:34.600 [main] INFO  com.sq.nettydemo.HelloServer
+client connected
+
+02-24 15:57:34.615 [main] INFO  com.sq.nettydemo.HelloServer
+server receive message:content from client
+
+04-08 14:33:14.932 [main] INFO  com.sq.nettydemo.HelloServer
+client connected
+
+04-08 14:33:14.983 [main] INFO  com.sq.nettydemo.HelloServer
+server receive message:content from client
+
+04-08 14:37:25.646 [main] INFO  java.lang.Object
+qwer
+
+04-08 14:37:59.852 [main] INFO  com.sq.log.logTest
+qwer
+
+04-13 16:00:35.416 [main] INFO  com.sq.nettydemo.HelloServer
+client connected
+
+04-13 16:00:35.463 [main] INFO  com.sq.nettydemo.HelloServer
+server receive message:content from client
+
+04-13 16:01:13.027 [main] INFO  com.sq.nettydemo.HelloServer
+client connected
+
+04-13 16:01:13.043 [main] INFO  com.sq.nettydemo.HelloServer
+server receive message:content from client
+
+04-14 17:28:40.520 [main] INFO  com.sq.nettydemo.HelloServer
+client connected
+
+04-14 17:28:40.582 [main] INFO  com.sq.nettydemo.HelloServer
+server receive message:content from client
+
+04-14 17:28:54.552 [main] INFO  com.sq.nettydemo.HelloServer
+client connected
+
+04-14 17:28:54.567 [main] INFO  com.sq.nettydemo.HelloServer
+server receive message:content from client
+

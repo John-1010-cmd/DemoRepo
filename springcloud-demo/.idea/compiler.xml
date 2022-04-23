@@ -8,16 +8,22 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="apigateway" />
-        <module name="order-service" />
         <module name="restaurant-service" />
+        <module name="oauth2-client-authorization-code-server" />
+        <module name="oauth2-client-user-server" />
         <module name="euerka-server" />
-        <module name="oauth-server" />
+        <module name="oauth2-client-order-server" />
+        <module name="oauth2-auth-server" />
+        <module name="order-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="apigateway" target="1.8" />
       <module name="euerka-server" target="1.8" />
-      <module name="oauth-server" target="1.8" />
+      <module name="oauth2-auth-server" target="1.8" />
+      <module name="oauth2-client-authorization-code-server" target="1.8" />
+      <module name="oauth2-client-order-server" target="1.8" />
+      <module name="oauth2-client-user-server" target="1.8" />
       <module name="order-service" target="1.8" />
       <module name="restaurant-service" target="1.8" />
     </bytecodeTargetLevel>
@@ -26,7 +32,10 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="apigateway" options="-parameters" />
       <module name="euerka-server" options="-parameters" />
-      <module name="oauth-server" options="-parameters" />
+      <module name="oauth2-auth-server" options="-parameters" />
+      <module name="oauth2-client-authorization-code-server" options="-parameters" />
+      <module name="oauth2-client-order-server" options="-parameters" />
+      <module name="oauth2-client-user-server" options="-parameters" />
       <module name="order-service" options="-parameters" />
       <module name="restaurant-service" options="-parameters" />
     </option>

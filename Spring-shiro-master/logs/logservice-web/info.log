@@ -1,0 +1,490 @@
+[2022/03/31 15:58:03157][INFO][LOGSERVICE][日志系统][org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50)]
+Starting Application on YYKJ-202105-01 with PID 17648 (D:\hzcan\GitRepo\Spring-shiro-master\target\classes started by lx in D:\hzcan\GitRepo\Spring-shiro-master)
+[2022/03/31 15:58:03188][INFO][LOGSERVICE][日志系统][org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:646)]
+No active profile set, falling back to default profiles: default
+[2022/03/31 15:58:03752][INFO][LOGSERVICE][日志系统][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)]
+Bean 'shiroConfig' of type [boot.spring.config.ShiroConfig$$EnhancerBySpringCGLIB$$c2b2c871] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2022/03/31 15:58:03981][INFO][LOGSERVICE][日志系统][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)]
+Bean 'pwdService' of type [org.apache.shiro.authc.credential.DefaultPasswordService] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2022/03/31 15:58:03991][INFO][LOGSERVICE][日志系统][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)]
+Bean 'myDataSource' of type [boot.spring.config.MyDataSource$$EnhancerBySpringCGLIB$$9a06063d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2022/03/31 15:58:04004][INFO][LOGSERVICE][日志系统][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)]
+Bean 'dataSource' of type [com.alibaba.druid.pool.DruidDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2022/03/31 15:58:04036][INFO][LOGSERVICE][日志系统][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)]
+Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2022/03/31 15:58:04036][INFO][LOGSERVICE][日志系统][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)]
+Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2022/03/31 15:58:04161][INFO][LOGSERVICE][日志系统][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)]
+Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2022/03/31 15:58:04161][INFO][LOGSERVICE][日志系统][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)]
+Bean 'userMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2022/03/31 15:58:04161][INFO][LOGSERVICE][日志系统][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)]
+Bean 'userMapper' of type [com.sun.proxy.$Proxy64] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2022/03/31 15:58:04176][INFO][LOGSERVICE][日志系统][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)]
+Bean 'roleMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2022/03/31 15:58:04176][INFO][LOGSERVICE][日志系统][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)]
+Bean 'roleMapper' of type [com.sun.proxy.$Proxy66] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2022/03/31 15:58:04176][INFO][LOGSERVICE][日志系统][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)]
+Bean 'userservice' of type [boot.spring.service.impl.UserServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2022/03/31 15:58:04192][INFO][LOGSERVICE][日志系统][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)]
+Bean 'userRealm' of type [boot.spring.realm.UserRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2022/03/31 15:58:04192][INFO][LOGSERVICE][日志系统][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)]
+Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2022/03/31 15:58:04379][INFO][LOGSERVICE][日志系统][org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:90)]
+Tomcat initialized with port(s): 8080 (http)
+[2022/03/31 15:58:04395][INFO][LOGSERVICE][日志系统][org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)]
+Initializing ProtocolHandler ["http-nio-8080"]
+[2022/03/31 15:58:04411][INFO][LOGSERVICE][日志系统][org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)]
+Starting service [Tomcat]
+[2022/03/31 15:58:04411][INFO][LOGSERVICE][日志系统][org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)]
+Starting Servlet engine: [Apache Tomcat/9.0.21]
+[2022/03/31 15:58:04473][INFO][LOGSERVICE][日志系统][org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)]
+Initializing Spring embedded WebApplicationContext
+[2022/03/31 15:58:04473][INFO][LOGSERVICE][日志系统][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:283)]
+Root WebApplicationContext: initialization completed in 1269 ms
+[2022/03/31 15:58:04630][INFO][LOGSERVICE][日志系统][org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171)]
+Initializing ExecutorService 'applicationTaskExecutor'
+[2022/03/31 15:58:04786][INFO][LOGSERVICE][日志系统][org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)]
+Starting ProtocolHandler ["http-nio-8080"]
+[2022/03/31 15:58:04802][INFO][LOGSERVICE][日志系统][org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:202)]
+Tomcat started on port(s): 8080 (http) with context path ''
+[2022/03/31 15:58:04802][INFO][LOGSERVICE][日志系统][org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59)]
+Started Application in 1.864 seconds (JVM running for 5.672)
+[2022/03/31 16:00:03631][INFO][LOGSERVICE][日志系统][org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)]
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2022/03/31 16:00:03631][INFO][LOGSERVICE][日志系统][org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:524)]
+Initializing Servlet 'dispatcherServlet'
+[2022/03/31 16:00:03636][INFO][LOGSERVICE][日志系统][org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:546)]
+Completed initialization in 5 ms
+[2022/03/31 16:03:17226][INFO][LOGSERVICE][日志系统][org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50)]
+Starting Application on YYKJ-202105-01 with PID 19120 (D:\hzcan\GitRepo\Spring-shiro-master\target\classes started by lx in D:\hzcan\GitRepo\Spring-shiro-master)
+[2022/03/31 16:03:17227][INFO][LOGSERVICE][日志系统][org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:646)]
+No active profile set, falling back to default profiles: default
+[2022/03/31 16:03:17748][INFO][LOGSERVICE][日志系统][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)]
+Bean 'shiroConfig' of type [boot.spring.config.ShiroConfig$$EnhancerBySpringCGLIB$$75ab7323] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2022/03/31 16:03:17963][INFO][LOGSERVICE][日志系统][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)]
+Bean 'pwdService' of type [org.apache.shiro.authc.credential.DefaultPasswordService] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2022/03/31 16:03:17979][INFO][LOGSERVICE][日志系统][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)]
+Bean 'myDataSource' of type [boot.spring.config.MyDataSource$$EnhancerBySpringCGLIB$$4cfeb0ef] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2022/03/31 16:03:17994][INFO][LOGSERVICE][日志系统][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)]
+Bean 'dataSource' of type [com.alibaba.druid.pool.DruidDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2022/03/31 16:03:18010][INFO][LOGSERVICE][日志系统][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)]
+Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2022/03/31 16:03:18025][INFO][LOGSERVICE][日志系统][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)]
+Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2022/03/31 16:03:18119][INFO][LOGSERVICE][日志系统][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)]
+Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2022/03/31 16:03:18119][INFO][LOGSERVICE][日志系统][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)]
+Bean 'userMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2022/03/31 16:03:18119][INFO][LOGSERVICE][日志系统][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)]
+Bean 'userMapper' of type [com.sun.proxy.$Proxy64] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2022/03/31 16:03:18119][INFO][LOGSERVICE][日志系统][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)]
+Bean 'roleMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2022/03/31 16:03:18119][INFO][LOGSERVICE][日志系统][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)]
+Bean 'roleMapper' of type [com.sun.proxy.$Proxy66] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2022/03/31 16:03:18119][INFO][LOGSERVICE][日志系统][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)]
+Bean 'userservice' of type [boot.spring.service.impl.UserServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2022/03/31 16:03:18135][INFO][LOGSERVICE][日志系统][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)]
+Bean 'userRealm' of type [boot.spring.realm.UserRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2022/03/31 16:03:18150][INFO][LOGSERVICE][日志系统][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)]
+Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2022/03/31 16:03:18310][INFO][LOGSERVICE][日志系统][org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:90)]
+Tomcat initialized with port(s): 8080 (http)
+[2022/03/31 16:03:18310][INFO][LOGSERVICE][日志系统][org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)]
+Initializing ProtocolHandler ["http-nio-8080"]
+[2022/03/31 16:03:18326][INFO][LOGSERVICE][日志系统][org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)]
+Starting service [Tomcat]
+[2022/03/31 16:03:18326][INFO][LOGSERVICE][日志系统][org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)]
+Starting Servlet engine: [Apache Tomcat/9.0.21]
+[2022/03/31 16:03:18373][INFO][LOGSERVICE][日志系统][org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)]
+Initializing Spring embedded WebApplicationContext
+[2022/03/31 16:03:18373][INFO][LOGSERVICE][日志系统][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:283)]
+Root WebApplicationContext: initialization completed in 1099 ms
+[2022/03/31 16:03:18529][INFO][LOGSERVICE][日志系统][org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171)]
+Initializing ExecutorService 'applicationTaskExecutor'
+[2022/03/31 16:03:18669][INFO][LOGSERVICE][日志系统][org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)]
+Starting ProtocolHandler ["http-nio-8080"]
+[2022/03/31 16:03:18685][INFO][LOGSERVICE][日志系统][org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:202)]
+Tomcat started on port(s): 8080 (http) with context path ''
+[2022/03/31 16:03:18685][INFO][LOGSERVICE][日志系统][org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59)]
+Started Application in 1.723 seconds (JVM running for 2.755)
+[2022/03/31 16:05:31497][INFO][LOGSERVICE][日志系统][org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)]
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2022/03/31 16:05:31497][INFO][LOGSERVICE][日志系统][org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:524)]
+Initializing Servlet 'dispatcherServlet'
+[2022/03/31 16:05:31503][INFO][LOGSERVICE][日志系统][org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:546)]
+Completed initialization in 6 ms
+[2022/03/31 16:06:22835][INFO][LOGSERVICE][日志系统][com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:1003)]
+{dataSource-1} inited
+[2022/03/31 16:06:22902][INFO][LOGSERVICE][日志系统][com.alibaba.druid.pool.DruidAbstractDataSource.setFailContinuous(DruidAbstractDataSource.java:1790)]
+{dataSource-1} failContinuous is true
+[2022/03/31 16:08:33428][INFO][LOGSERVICE][日志系统][org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50)]
+Starting Application on YYKJ-202105-01 with PID 16736 (D:\hzcan\GitRepo\Spring-shiro-master\target\classes started by lx in D:\hzcan\GitRepo\Spring-shiro-master)
+[2022/03/31 16:08:33428][INFO][LOGSERVICE][日志系统][org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:646)]
+No active profile set, falling back to default profiles: default
+[2022/03/31 16:08:33945][INFO][LOGSERVICE][日志系统][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)]
+Bean 'shiroConfig' of type [boot.spring.config.ShiroConfig$$EnhancerBySpringCGLIB$$c2b2c871] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2022/03/31 16:08:34166][INFO][LOGSERVICE][日志系统][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)]
+Bean 'pwdService' of type [org.apache.shiro.authc.credential.DefaultPasswordService] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2022/03/31 16:08:34182][INFO][LOGSERVICE][日志系统][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)]
+Bean 'myDataSource' of type [boot.spring.config.MyDataSource$$EnhancerBySpringCGLIB$$9a06063d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2022/03/31 16:08:34198][INFO][LOGSERVICE][日志系统][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)]
+Bean 'dataSource' of type [com.alibaba.druid.pool.DruidDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2022/03/31 16:08:34229][INFO][LOGSERVICE][日志系统][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)]
+Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2022/03/31 16:08:34229][INFO][LOGSERVICE][日志系统][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)]
+Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2022/03/31 16:08:34323][INFO][LOGSERVICE][日志系统][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)]
+Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2022/03/31 16:08:34323][INFO][LOGSERVICE][日志系统][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)]
+Bean 'userMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2022/03/31 16:08:34338][INFO][LOGSERVICE][日志系统][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)]
+Bean 'userMapper' of type [com.sun.proxy.$Proxy64] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2022/03/31 16:08:34338][INFO][LOGSERVICE][日志系统][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)]
+Bean 'roleMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2022/03/31 16:08:34338][INFO][LOGSERVICE][日志系统][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)]
+Bean 'roleMapper' of type [com.sun.proxy.$Proxy66] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2022/03/31 16:08:34338][INFO][LOGSERVICE][日志系统][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)]
+Bean 'userservice' of type [boot.spring.service.impl.UserServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2022/03/31 16:08:34354][INFO][LOGSERVICE][日志系统][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)]
+Bean 'userRealm' of type [boot.spring.realm.UserRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2022/03/31 16:08:34354][INFO][LOGSERVICE][日志系统][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)]
+Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2022/03/31 16:08:34510][INFO][LOGSERVICE][日志系统][org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:90)]
+Tomcat initialized with port(s): 8080 (http)
+[2022/03/31 16:08:34526][INFO][LOGSERVICE][日志系统][org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)]
+Initializing ProtocolHandler ["http-nio-8080"]
+[2022/03/31 16:08:34526][INFO][LOGSERVICE][日志系统][org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)]
+Starting service [Tomcat]
+[2022/03/31 16:08:34526][INFO][LOGSERVICE][日志系统][org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)]
+Starting Servlet engine: [Apache Tomcat/9.0.21]
+[2022/03/31 16:08:34588][INFO][LOGSERVICE][日志系统][org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)]
+Initializing Spring embedded WebApplicationContext
+[2022/03/31 16:08:34588][INFO][LOGSERVICE][日志系统][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:283)]
+Root WebApplicationContext: initialization completed in 1098 ms
+[2022/03/31 16:08:34729][INFO][LOGSERVICE][日志系统][org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171)]
+Initializing ExecutorService 'applicationTaskExecutor'
+[2022/03/31 16:08:34885][INFO][LOGSERVICE][日志系统][org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)]
+Starting ProtocolHandler ["http-nio-8080"]
+[2022/03/31 16:08:34901][INFO][LOGSERVICE][日志系统][org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:202)]
+Tomcat started on port(s): 8080 (http) with context path ''
+[2022/03/31 16:08:34901][INFO][LOGSERVICE][日志系统][org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59)]
+Started Application in 1.692 seconds (JVM running for 2.415)
+[2022/03/31 16:08:41148][INFO][LOGSERVICE][日志系统][org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)]
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2022/03/31 16:08:41149][INFO][LOGSERVICE][日志系统][org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:524)]
+Initializing Servlet 'dispatcherServlet'
+[2022/03/31 16:08:41154][INFO][LOGSERVICE][日志系统][org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:546)]
+Completed initialization in 5 ms
+[2022/03/31 16:08:41224][INFO][LOGSERVICE][日志系统][com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:1003)]
+{dataSource-1} inited
+[2022/03/31 16:08:41302][INFO][LOGSERVICE][日志系统][com.alibaba.druid.pool.DruidAbstractDataSource.setFailContinuous(DruidAbstractDataSource.java:1790)]
+{dataSource-1} failContinuous is true
+[2022/03/31 16:12:12868][INFO][LOGSERVICE][日志系统][org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50)]
+Starting Application on YYKJ-202105-01 with PID 2288 (D:\hzcan\GitRepo\Spring-shiro-master\target\classes started by lx in D:\hzcan\GitRepo\Spring-shiro-master)
+[2022/03/31 16:12:12868][INFO][LOGSERVICE][日志系统][org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:646)]
+No active profile set, falling back to default profiles: default
+[2022/03/31 16:12:13430][INFO][LOGSERVICE][日志系统][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)]
+Bean 'shiroConfig' of type [boot.spring.config.ShiroConfig$$EnhancerBySpringCGLIB$$97c50318] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2022/03/31 16:12:13651][INFO][LOGSERVICE][日志系统][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)]
+Bean 'pwdService' of type [org.apache.shiro.authc.credential.DefaultPasswordService] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2022/03/31 16:12:13667][INFO][LOGSERVICE][日志系统][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)]
+Bean 'myDataSource' of type [boot.spring.config.MyDataSource$$EnhancerBySpringCGLIB$$6f1840e4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2022/03/31 16:12:13682][INFO][LOGSERVICE][日志系统][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)]
+Bean 'dataSource' of type [com.alibaba.druid.pool.DruidDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2022/03/31 16:12:13714][INFO][LOGSERVICE][日志系统][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)]
+Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2022/03/31 16:12:13714][INFO][LOGSERVICE][日志系统][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)]
+Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2022/03/31 16:12:13807][INFO][LOGSERVICE][日志系统][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)]
+Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2022/03/31 16:12:13807][INFO][LOGSERVICE][日志系统][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)]
+Bean 'userMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2022/03/31 16:12:13807][INFO][LOGSERVICE][日志系统][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)]
+Bean 'userMapper' of type [com.sun.proxy.$Proxy64] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2022/03/31 16:12:13807][INFO][LOGSERVICE][日志系统][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)]
+Bean 'roleMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2022/03/31 16:12:13807][INFO][LOGSERVICE][日志系统][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)]
+Bean 'roleMapper' of type [com.sun.proxy.$Proxy66] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2022/03/31 16:12:13807][INFO][LOGSERVICE][日志系统][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)]
+Bean 'userservice' of type [boot.spring.service.impl.UserServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2022/03/31 16:12:13823][INFO][LOGSERVICE][日志系统][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)]
+Bean 'userRealm' of type [boot.spring.realm.UserRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2022/03/31 16:12:13823][INFO][LOGSERVICE][日志系统][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)]
+Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2022/03/31 16:12:14011][INFO][LOGSERVICE][日志系统][org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:90)]
+Tomcat initialized with port(s): 8080 (http)
+[2022/03/31 16:12:14026][INFO][LOGSERVICE][日志系统][org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)]
+Initializing ProtocolHandler ["http-nio-8080"]
+[2022/03/31 16:12:14026][INFO][LOGSERVICE][日志系统][org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)]
+Starting service [Tomcat]
+[2022/03/31 16:12:14026][INFO][LOGSERVICE][日志系统][org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)]
+Starting Servlet engine: [Apache Tomcat/9.0.21]
+[2022/03/31 16:12:14138][INFO][LOGSERVICE][日志系统][org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)]
+Initializing Spring embedded WebApplicationContext
+[2022/03/31 16:12:14138][INFO][LOGSERVICE][日志系统][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:283)]
+Root WebApplicationContext: initialization completed in 1208 ms
+[2022/03/31 16:12:14294][INFO][LOGSERVICE][日志系统][org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171)]
+Initializing ExecutorService 'applicationTaskExecutor'
+[2022/03/31 16:12:14435][INFO][LOGSERVICE][日志系统][org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)]
+Starting ProtocolHandler ["http-nio-8080"]
+[2022/03/31 16:12:14451][INFO][LOGSERVICE][日志系统][org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:202)]
+Tomcat started on port(s): 8080 (http) with context path ''
+[2022/03/31 16:12:14451][INFO][LOGSERVICE][日志系统][org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59)]
+Started Application in 1.802 seconds (JVM running for 2.525)
+[2022/03/31 16:12:19309][INFO][LOGSERVICE][日志系统][org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)]
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2022/03/31 16:12:19309][INFO][LOGSERVICE][日志系统][org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:524)]
+Initializing Servlet 'dispatcherServlet'
+[2022/03/31 16:12:19313][INFO][LOGSERVICE][日志系统][org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:546)]
+Completed initialization in 4 ms
+[2022/03/31 16:15:13936][INFO][LOGSERVICE][日志系统][org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50)]
+Starting Application on YYKJ-202105-01 with PID 20824 (D:\hzcan\GitRepo\Spring-shiro-master\target\classes started by lx in D:\hzcan\GitRepo\Spring-shiro-master)
+[2022/03/31 16:15:13936][INFO][LOGSERVICE][日志系统][org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:646)]
+No active profile set, falling back to default profiles: default
+[2022/03/31 16:15:14469][INFO][LOGSERVICE][日志系统][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)]
+Bean 'shiroConfig' of type [boot.spring.config.ShiroConfig$$EnhancerBySpringCGLIB$$7681843c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2022/03/31 16:15:14688][INFO][LOGSERVICE][日志系统][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)]
+Bean 'pwdService' of type [org.apache.shiro.authc.credential.DefaultPasswordService] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2022/03/31 16:15:14704][INFO][LOGSERVICE][日志系统][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)]
+Bean 'myDataSource' of type [boot.spring.config.MyDataSource$$EnhancerBySpringCGLIB$$4dd4c208] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2022/03/31 16:15:14719][INFO][LOGSERVICE][日志系统][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)]
+Bean 'dataSource' of type [com.alibaba.druid.pool.DruidDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2022/03/31 16:15:14750][INFO][LOGSERVICE][日志系统][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)]
+Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2022/03/31 16:15:14750][INFO][LOGSERVICE][日志系统][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)]
+Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2022/03/31 16:15:14846][INFO][LOGSERVICE][日志系统][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)]
+Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2022/03/31 16:15:14861][INFO][LOGSERVICE][日志系统][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)]
+Bean 'userMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2022/03/31 16:15:14861][INFO][LOGSERVICE][日志系统][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)]
+Bean 'userMapper' of type [com.sun.proxy.$Proxy64] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2022/03/31 16:15:14861][INFO][LOGSERVICE][日志系统][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)]
+Bean 'roleMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2022/03/31 16:15:14861][INFO][LOGSERVICE][日志系统][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)]
+Bean 'roleMapper' of type [com.sun.proxy.$Proxy66] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2022/03/31 16:15:14861][INFO][LOGSERVICE][日志系统][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)]
+Bean 'userservice' of type [boot.spring.service.impl.UserServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2022/03/31 16:15:14877][INFO][LOGSERVICE][日志系统][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)]
+Bean 'userRealm' of type [boot.spring.realm.UserRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2022/03/31 16:15:14877][INFO][LOGSERVICE][日志系统][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)]
+Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2022/03/31 16:15:15049][INFO][LOGSERVICE][日志系统][org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:90)]
+Tomcat initialized with port(s): 8080 (http)
+[2022/03/31 16:15:15065][INFO][LOGSERVICE][日志系统][org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)]
+Initializing ProtocolHandler ["http-nio-8080"]
+[2022/03/31 16:15:15065][INFO][LOGSERVICE][日志系统][org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)]
+Starting service [Tomcat]
+[2022/03/31 16:15:15065][INFO][LOGSERVICE][日志系统][org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)]
+Starting Servlet engine: [Apache Tomcat/9.0.21]
+[2022/03/31 16:15:15127][INFO][LOGSERVICE][日志系统][org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)]
+Initializing Spring embedded WebApplicationContext
+[2022/03/31 16:15:15127][INFO][LOGSERVICE][日志系统][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:283)]
+Root WebApplicationContext: initialization completed in 1144 ms
+[2022/03/31 16:15:15283][INFO][LOGSERVICE][日志系统][org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171)]
+Initializing ExecutorService 'applicationTaskExecutor'
+[2022/03/31 16:15:15425][INFO][LOGSERVICE][日志系统][org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)]
+Starting ProtocolHandler ["http-nio-8080"]
+[2022/03/31 16:15:15441][INFO][LOGSERVICE][日志系统][org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:202)]
+Tomcat started on port(s): 8080 (http) with context path ''
+[2022/03/31 16:15:15441][INFO][LOGSERVICE][日志系统][org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59)]
+Started Application in 1.725 seconds (JVM running for 2.443)
+[2022/03/31 16:15:20914][INFO][LOGSERVICE][日志系统][org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)]
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2022/03/31 16:15:20914][INFO][LOGSERVICE][日志系统][org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:524)]
+Initializing Servlet 'dispatcherServlet'
+[2022/03/31 16:15:20914][INFO][LOGSERVICE][日志系统][org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:546)]
+Completed initialization in 0 ms
+[2022/03/31 16:21:33028][INFO][LOGSERVICE][日志系统][org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50)]
+Starting Application on YYKJ-202105-01 with PID 23732 (D:\hzcan\GitRepo\Spring-shiro-master\target\classes started by lx in D:\hzcan\GitRepo\Spring-shiro-master)
+[2022/03/31 16:21:33028][INFO][LOGSERVICE][日志系统][org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:646)]
+No active profile set, falling back to default profiles: default
+[2022/03/31 16:21:33575][INFO][LOGSERVICE][日志系统][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)]
+Bean 'shiroConfig' of type [boot.spring.config.ShiroConfig$$EnhancerBySpringCGLIB$$6d6e34d9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2022/03/31 16:21:33812][INFO][LOGSERVICE][日志系统][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)]
+Bean 'pwdService' of type [org.apache.shiro.authc.credential.DefaultPasswordService] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2022/03/31 16:21:33828][INFO][LOGSERVICE][日志系统][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)]
+Bean 'myDataSource' of type [boot.spring.config.MyDataSource$$EnhancerBySpringCGLIB$$44c172a5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2022/03/31 16:21:33843][INFO][LOGSERVICE][日志系统][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)]
+Bean 'dataSource' of type [com.alibaba.druid.pool.DruidDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2022/03/31 16:21:33874][INFO][LOGSERVICE][日志系统][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)]
+Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2022/03/31 16:21:33874][INFO][LOGSERVICE][日志系统][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)]
+Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2022/03/31 16:21:33984][INFO][LOGSERVICE][日志系统][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)]
+Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2022/03/31 16:21:33984][INFO][LOGSERVICE][日志系统][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)]
+Bean 'userMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2022/03/31 16:21:33984][INFO][LOGSERVICE][日志系统][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)]
+Bean 'userMapper' of type [com.sun.proxy.$Proxy64] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2022/03/31 16:21:33984][INFO][LOGSERVICE][日志系统][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)]
+Bean 'roleMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2022/03/31 16:21:33984][INFO][LOGSERVICE][日志系统][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)]
+Bean 'roleMapper' of type [com.sun.proxy.$Proxy66] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2022/03/31 16:21:33984][INFO][LOGSERVICE][日志系统][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)]
+Bean 'userservice' of type [boot.spring.service.impl.UserServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2022/03/31 16:21:34015][INFO][LOGSERVICE][日志系统][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)]
+Bean 'userRealm' of type [boot.spring.realm.UserRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2022/03/31 16:21:34015][INFO][LOGSERVICE][日志系统][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)]
+Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2022/03/31 16:21:34187][INFO][LOGSERVICE][日志系统][org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:90)]
+Tomcat initialized with port(s): 8080 (http)
+[2022/03/31 16:21:34202][INFO][LOGSERVICE][日志系统][org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)]
+Initializing ProtocolHandler ["http-nio-8080"]
+[2022/03/31 16:21:34202][INFO][LOGSERVICE][日志系统][org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)]
+Starting service [Tomcat]
+[2022/03/31 16:21:34202][INFO][LOGSERVICE][日志系统][org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)]
+Starting Servlet engine: [Apache Tomcat/9.0.21]
+[2022/03/31 16:21:34265][INFO][LOGSERVICE][日志系统][org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)]
+Initializing Spring embedded WebApplicationContext
+[2022/03/31 16:21:34265][INFO][LOGSERVICE][日志系统][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:283)]
+Root WebApplicationContext: initialization completed in 1191 ms
+[2022/03/31 16:21:34406][INFO][LOGSERVICE][日志系统][org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171)]
+Initializing ExecutorService 'applicationTaskExecutor'
+[2022/03/31 16:21:34562][INFO][LOGSERVICE][日志系统][org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)]
+Starting ProtocolHandler ["http-nio-8080"]
+[2022/03/31 16:21:34562][INFO][LOGSERVICE][日志系统][org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)]
+Pausing ProtocolHandler ["http-nio-8080"]
+[2022/03/31 16:21:34562][INFO][LOGSERVICE][日志系统][org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)]
+Stopping service [Tomcat]
+[2022/03/31 16:21:34578][INFO][LOGSERVICE][日志系统][org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)]
+The stop() method was called on component [StandardServer[-1]] after stop() had already been called. The second call will be ignored.
+[2022/03/31 16:21:34578][INFO][LOGSERVICE][日志系统][org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)]
+Stopping ProtocolHandler ["http-nio-8080"]
+[2022/03/31 16:21:34578][INFO][LOGSERVICE][日志系统][org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)]
+Destroying ProtocolHandler ["http-nio-8080"]
+[2022/03/31 16:21:34578][INFO][LOGSERVICE][日志系统][org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener.logMessage(ConditionEvaluationReportLoggingListener.java:135)]
+
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[2022/03/31 16:21:34578][INFO][LOGSERVICE][日志系统][org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208)]
+Shutting down ExecutorService 'applicationTaskExecutor'
+[2022/03/31 16:21:34578][INFO][LOGSERVICE][日志系统][com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:1965)]
+{dataSource-0} closing ...
+[2022/03/31 16:25:25141][INFO][LOGSERVICE][日志系统][org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50)]
+Starting Application on YYKJ-202105-01 with PID 27888 (D:\hzcan\GitRepo\Spring-shiro-master\target\classes started by lx in D:\hzcan\GitRepo\Spring-shiro-master)
+[2022/03/31 16:25:25141][INFO][LOGSERVICE][日志系统][org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:646)]
+No active profile set, falling back to default profiles: default
+[2022/03/31 16:25:25674][INFO][LOGSERVICE][日志系统][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)]
+Bean 'shiroConfig' of type [boot.spring.config.ShiroConfig$$EnhancerBySpringCGLIB$$ee0fb6aa] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2022/03/31 16:25:25906][INFO][LOGSERVICE][日志系统][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)]
+Bean 'pwdService' of type [org.apache.shiro.authc.credential.DefaultPasswordService] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2022/03/31 16:25:25915][INFO][LOGSERVICE][日志系统][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)]
+Bean 'myDataSource' of type [boot.spring.config.MyDataSource$$EnhancerBySpringCGLIB$$c562f476] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2022/03/31 16:25:25937][INFO][LOGSERVICE][日志系统][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)]
+Bean 'dataSource' of type [com.alibaba.druid.pool.DruidDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2022/03/31 16:25:25956][INFO][LOGSERVICE][日志系统][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)]
+Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2022/03/31 16:25:25956][INFO][LOGSERVICE][日志系统][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)]
+Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2022/03/31 16:25:26050][INFO][LOGSERVICE][日志系统][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)]
+Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2022/03/31 16:25:26050][INFO][LOGSERVICE][日志系统][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)]
+Bean 'userMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2022/03/31 16:25:26066][INFO][LOGSERVICE][日志系统][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)]
+Bean 'userMapper' of type [com.sun.proxy.$Proxy64] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2022/03/31 16:25:26066][INFO][LOGSERVICE][日志系统][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)]
+Bean 'roleMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2022/03/31 16:25:26066][INFO][LOGSERVICE][日志系统][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)]
+Bean 'roleMapper' of type [com.sun.proxy.$Proxy66] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2022/03/31 16:25:26066][INFO][LOGSERVICE][日志系统][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)]
+Bean 'userservice' of type [boot.spring.service.impl.UserServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2022/03/31 16:25:26066][INFO][LOGSERVICE][日志系统][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)]
+Bean 'userRealm' of type [boot.spring.realm.UserRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2022/03/31 16:25:26081][INFO][LOGSERVICE][日志系统][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)]
+Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2022/03/31 16:25:26269][INFO][LOGSERVICE][日志系统][org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:90)]
+Tomcat initialized with port(s): 8080 (http)
+[2022/03/31 16:25:26284][INFO][LOGSERVICE][日志系统][org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)]
+Initializing ProtocolHandler ["http-nio-8080"]
+[2022/03/31 16:25:26284][INFO][LOGSERVICE][日志系统][org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)]
+Starting service [Tomcat]
+[2022/03/31 16:25:26300][INFO][LOGSERVICE][日志系统][org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)]
+Starting Servlet engine: [Apache Tomcat/9.0.21]
+[2022/03/31 16:25:26363][INFO][LOGSERVICE][日志系统][org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)]
+Initializing Spring embedded WebApplicationContext
+[2022/03/31 16:25:26363][INFO][LOGSERVICE][日志系统][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:283)]
+Root WebApplicationContext: initialization completed in 1176 ms
+[2022/03/31 16:25:26520][INFO][LOGSERVICE][日志系统][org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171)]
+Initializing ExecutorService 'applicationTaskExecutor'
+[2022/03/31 16:25:26677][INFO][LOGSERVICE][日志系统][org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)]
+Starting ProtocolHandler ["http-nio-8080"]
+[2022/03/31 16:25:26692][INFO][LOGSERVICE][日志系统][org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)]
+Pausing ProtocolHandler ["http-nio-8080"]
+[2022/03/31 16:25:26692][INFO][LOGSERVICE][日志系统][org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)]
+Stopping service [Tomcat]
+[2022/03/31 16:25:26708][INFO][LOGSERVICE][日志系统][org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)]
+The stop() method was called on component [StandardServer[-1]] after stop() had already been called. The second call will be ignored.
+[2022/03/31 16:25:26708][INFO][LOGSERVICE][日志系统][org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)]
+Stopping ProtocolHandler ["http-nio-8080"]
+[2022/03/31 16:25:26708][INFO][LOGSERVICE][日志系统][org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)]
+Destroying ProtocolHandler ["http-nio-8080"]
+[2022/03/31 16:25:26708][INFO][LOGSERVICE][日志系统][org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener.logMessage(ConditionEvaluationReportLoggingListener.java:135)]
+
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[2022/03/31 16:25:26724][INFO][LOGSERVICE][日志系统][org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208)]
+Shutting down ExecutorService 'applicationTaskExecutor'
+[2022/03/31 16:25:26724][INFO][LOGSERVICE][日志系统][com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:1965)]
+{dataSource-0} closing ...
+[2022/03/31 16:29:03562][INFO][LOGSERVICE][日志系统][org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50)]
+Starting Application on YYKJ-202105-01 with PID 14428 (D:\hzcan\GitRepo\Spring-shiro-master\target\classes started by lx in D:\hzcan\GitRepo\Spring-shiro-master)
+[2022/03/31 16:29:03577][INFO][LOGSERVICE][日志系统][org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:646)]
+No active profile set, falling back to default profiles: default
+[2022/03/31 16:29:04171][INFO][LOGSERVICE][日志系统][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)]
+Bean 'shiroConfig' of type [boot.spring.config.ShiroConfig$$EnhancerBySpringCGLIB$$ab0c8f95] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2022/03/31 16:29:04393][INFO][LOGSERVICE][日志系统][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)]
+Bean 'pwdService' of type [org.apache.shiro.authc.credential.DefaultPasswordService] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2022/03/31 16:29:04393][INFO][LOGSERVICE][日志系统][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)]
+Bean 'myDataSource' of type [boot.spring.config.MyDataSource$$EnhancerBySpringCGLIB$$825fcd61] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2022/03/31 16:29:04424][INFO][LOGSERVICE][日志系统][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)]
+Bean 'dataSource' of type [com.alibaba.druid.pool.DruidDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2022/03/31 16:29:04440][INFO][LOGSERVICE][日志系统][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)]
+Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2022/03/31 16:29:04440][INFO][LOGSERVICE][日志系统][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)]
+Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2022/03/31 16:29:04549][INFO][LOGSERVICE][日志系统][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)]
+Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2022/03/31 16:29:04549][INFO][LOGSERVICE][日志系统][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)]
+Bean 'userMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2022/03/31 16:29:04549][INFO][LOGSERVICE][日志系统][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)]
+Bean 'userMapper' of type [com.sun.proxy.$Proxy64] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2022/03/31 16:29:04549][INFO][LOGSERVICE][日志系统][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)]
+Bean 'roleMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2022/03/31 16:29:04549][INFO][LOGSERVICE][日志系统][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)]
+Bean 'roleMapper' of type [com.sun.proxy.$Proxy66] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2022/03/31 16:29:04549][INFO][LOGSERVICE][日志系统][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)]
+Bean 'userservice' of type [boot.spring.service.impl.UserServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2022/03/31 16:29:04565][INFO][LOGSERVICE][日志系统][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)]
+Bean 'userRealm' of type [boot.spring.realm.UserRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2022/03/31 16:29:04565][INFO][LOGSERVICE][日志系统][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)]
+Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2022/03/31 16:29:04753][INFO][LOGSERVICE][日志系统][org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:90)]
+Tomcat initialized with port(s): 8080 (http)
+[2022/03/31 16:29:04768][INFO][LOGSERVICE][日志系统][org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)]
+Initializing ProtocolHandler ["http-nio-8080"]
+[2022/03/31 16:29:04768][INFO][LOGSERVICE][日志系统][org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)]
+Starting service [Tomcat]
+[2022/03/31 16:29:04768][INFO][LOGSERVICE][日志系统][org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)]
+Starting Servlet engine: [Apache Tomcat/9.0.21]
+[2022/03/31 16:29:04832][INFO][LOGSERVICE][日志系统][org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)]
+Initializing Spring embedded WebApplicationContext
+[2022/03/31 16:29:04832][INFO][LOGSERVICE][日志系统][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:283)]
+Root WebApplicationContext: initialization completed in 1208 ms
+[2022/03/31 16:29:05035][INFO][LOGSERVICE][日志系统][org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171)]
+Initializing ExecutorService 'applicationTaskExecutor'
+[2022/03/31 16:29:05176][INFO][LOGSERVICE][日志系统][org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)]
+Starting ProtocolHandler ["http-nio-8080"]
+[2022/03/31 16:29:05192][INFO][LOGSERVICE][日志系统][org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:202)]
+Tomcat started on port(s): 8080 (http) with context path ''
+[2022/03/31 16:29:05192][INFO][LOGSERVICE][日志系统][org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59)]
+Started Application in 1.833 seconds (JVM running for 2.641)
+[2022/03/31 16:29:20718][INFO][LOGSERVICE][日志系统][org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)]
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2022/03/31 16:29:20719][INFO][LOGSERVICE][日志系统][org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:524)]
+Initializing Servlet 'dispatcherServlet'
+[2022/03/31 16:29:20723][INFO][LOGSERVICE][日志系统][org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:546)]
+Completed initialization in 4 ms
+[2022/03/31 16:29:26988][INFO][LOGSERVICE][日志系统][com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:1003)]
+{dataSource-1} inited
